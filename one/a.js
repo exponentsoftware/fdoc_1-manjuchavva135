@@ -1,0 +1,1 @@
+function countWords(string, word) {
