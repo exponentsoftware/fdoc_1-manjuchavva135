@@ -6,3 +6,9 @@ function countWords(string, word) {
  console.log(count)
  var count2=countWords(text,"you");
  console.log(count2)
+ if (count>count2){
+    console.log("The word love more frequently occurred than you.")
+}
+else{
+    console.log("The word you more frequently occurred than love.")
+}
